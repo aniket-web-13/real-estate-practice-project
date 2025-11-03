@@ -1,4 +1,14 @@
 let navbar = document.getElementById("navbar");
+
+const navLink = (link) => {
+  this.link = link
+};
+
+const agentPage = new navLink("./pages/agentsPage.html");
+const servicePage = new navLink("./pages/servicesPage.html");
+const realtorPage = new navLink("./pages/realtorPage.html");
+
+
 navbar.innerHTML = `
    <div class="nav-section">
        <div class="container">
@@ -16,9 +26,9 @@ navbar.innerHTML = `
                        <li id="nlp-position">Pages&nbsp;<span class="page-icon"><i class="fa-solid fa-chevron-down"></i></span>
                          <div class="n-pages-box">
                            <ul>
-                             <li><div class="np-l-div"><a href="./pages/agentsPage.html">Agents</a></div></li>
-                             <li><div class="np-l-div"><a href="./pages/servicesPage.html">Services</a></div></li>
-                             <li><div class="np-l-div"><a href="./pages/realtorPage.html">Realtor</a></div></li>
+                             <li><div class="np-l-div"><a href="${agentPage}">Agents</a></div></li>
+                             <li><div class="np-l-div"><a href="${servicePage}">Services</a></div></li>
+                             <li><div class="np-l-div"><a href="${realtorPage}">Realtor</a></div></li>
                              <li><div class="np-l-div"><a href="#">Contact</a></div></li>
                              <li><div class="np-l-div"><a href="#">Licenses</a></div></li>
                              <li><div class="np-l-div"><a href="#">404 Page</a></div></li>
