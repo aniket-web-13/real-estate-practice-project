@@ -57,17 +57,14 @@ for (let i = 0; i < testCard.length; i++) {
   testCard[i].style.display = "none";
 }
 
-
 function displayTestimonial() {
-  
+
   for (let i = 0; i < testCard.length; i++) {
-    testCard[i].style.display = "none"; 
+    testCard[i].style.display = "none";
   }
-  
-  
+
   testCard[j].style.display = "block";
 }
-
 
 if (testCard.length > 0) {
   displayTestimonial();
@@ -82,7 +79,7 @@ nextBtn.addEventListener("click", () => {
 });
 
 prevBtn.addEventListener("click", () => {
-  j = (j - 1 + testCard.length) % testCard.length; 
+  j = (j - 1 + testCard.length) % testCard.length;
   displayTestimonial();
 });
 
