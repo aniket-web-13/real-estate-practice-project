@@ -5,85 +5,103 @@
     margin-right: auto !important;
     margin-left: auto !important;
   }
+
   .padding-section {
     padding: 3.75rem 0 !important;
   }
+
   .our-service-padding {
     padding: 3.75rem 0 !important;
   }
+
   // navigation //
   .nav-section {
     padding: 1.25rem 1.25rem !important;
   }
+
   .hamSec {
     display: none;
   }
+
   // header //
   .head-h1 {
     h1 {
       font-size: 13vw !important;
     }
   }
+
   .hero-img img {
     width: 100%;
   }
+
   // recent property //
-  .rp-card {
-    width: 95%;
-    margin: 0 auto;
+  .rp-card-count,
+  .p-cat-card-count {
+    grid-template-columns: 1fr 1fr 1fr;
   }
-  .rp-card-count {
-    grid-template-columns: 1fr 1fr 1fr !important;
-  }
+
   .cb-prop-info {
     p {
       font-size: 0.75rem !important;
     }
   }
+
   // number of success //
   .nsec-right-box {
     width: 58%;
   }
+
   .our-p-heading {
     width: 51%;
   }
+
   .ns-left-postion {
     width: 30%;
     height: 62%;
   }
+
   // our process //
   .op-img-right {
     width: 54%;
     height: 1500px;
   }
+
   .op-step-img {
     width: 491px;
     height: auto;
   }
+
   .op-info-left {
     width: 45%;
   }
+
   .op-img-right {
     width: 50%;
   }
+
   .op-img-position {
     width: auto;
   }
+
   // our agent //
   .agent-card {
     left: 3400px;
   }
+
   // blog and article //
   .art-b-dt {
     width: 85% !important;
   }
+
   // FAQ //
   .faq-left {
     width: 32%;
   }
+
   .faq-right {
     width: 67%;
   }
+
   // footer //
   input,
   .foot-name,
@@ -96,31 +114,37 @@
   .ov-left-postion {
     width: 40%;
   }
+
   .value-right-box {
     width: 60%;
   }
+
   .ov-left-box {
     width: 37%;
   }
 
-   //html page 4 our Services //
-   .our-services-main-count{
+  //html page 4 our Services //
+  .our-services-main-count {
     grid-template-columns: repeat(3, minmax(0, 1fr));
-   
+
   }
-  .servicCard{
+
+  .servicCard {
     aspect-ratio: 4/5;
   }
+
   .servicCard .value-info .value-title {
-    width: 100%;   
+    width: 100%;
   }
-    // html page 5 Realtor //
-    .real-head-h1 {
-      h1 {
-        font-size: 3.75rem !important;
-      }
+
+  // html page 5 Realtor //
+  .real-head-h1 {
+    h1 {
+      font-size: 3.75rem !important;
     }
-    .realtor-form-count {
-      width: 80% ;
-    }
+  }
+
+  .realtor-form-count {
+    width: 80%;
+  }
 }

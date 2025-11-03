@@ -16,7 +16,7 @@ main {
 
 .container {
   @include flex(row, center, center);
-  width: 64%;
+  width: 1200px;
   margin-right: auto;
   margin-left: auto;
 }
