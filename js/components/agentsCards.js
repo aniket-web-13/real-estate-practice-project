@@ -80,7 +80,7 @@ for (let i = 0; i < agent.length; i++) {
 function aCard() {
     
 let agentsMainCount = document.getElementById("agentsMainCount");
-console.log(agentsMainCount);
+// console.log(agentsMainCount);
 
 
 
@@ -107,4 +107,4 @@ agent.map((value, index) => {
 }
 
 let apCardImg = document.getElementsByClassName("apCardImg");
-console.log(apCardImg.indexof);
+// console.log(apCardImg.indexof);
