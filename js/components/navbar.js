@@ -1,7 +1,7 @@
 
-const agentPage =("./pages/agentsPage.html");
-const servicePage =("./pages/servicesPage.html");
-const realtorPage =("./pages/realtorPage.html");
+const agentPage ="/pages/agentsPage.html";
+const servicePage ="/pages/servicesPage.html";
+const realtorPage ="/pages/realtorPage.html";
 
 let navbar = document.getElementById("navbar");
 
